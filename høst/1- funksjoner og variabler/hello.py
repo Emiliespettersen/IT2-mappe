@@ -1,0 +1,5 @@
+navn1 = input("person nr1 hva heter du? ")
+navn2 = input ("person nr2 hva heter du? ")
+alder1 = input("hvor gammel er du person1? ")
+alder2 = input("hvor gammel er du person2? ")
+print("Hallo", navn1, "du er ", alder1, "år gammel", "og", navn2, "du er ", alder2, "år gammel")
