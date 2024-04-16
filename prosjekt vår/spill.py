@@ -2,6 +2,7 @@ import pygame
 from spiller import Spiller
 from fiende import Fiende
 from skudd import Skudd
+from plattform import Platform
 
 #1. oppsett
 pygame.init()
@@ -26,6 +27,17 @@ fiender = [
     Fiende(575, 75)
 ]
 
+platformer = [
+    Platform (50, 200, 150),
+    Platform (150, 300, 150),
+    Platform (300, 550, 150),
+    Platform (400, 550, 150),
+    Platform (400, 470, 150),
+    Platform (450, 510, 150),
+    Platform (500, 610, 150)
+
+]
+
 skuddene = []
 
 #poengsum
@@ -46,6 +58,8 @@ while True:
         spiller.flytt(-1)
     if taster[pygame.K_RIGHT]:
         spiller.flytt(1)
+    if taster[pygame.K_UP]:
+        spiller.hopp()
     if taster[pygame.K_SPACE]:
         if spiller.cooldown == 0:
             skuddene.append(Skudd(spiller.ramme.centerx, spiller.ramme.centery))
@@ -78,15 +92,26 @@ while True:
     
     for skudd in skuddene:
         skudd.flytt()
+
+    for platform in platformer:
+        if spiller.ramme.colliderect(platform.rect) and platform.rect[1] + 5 > spiller.ramme.bottom:
+            print("Standing")
+            spiller.ramme.bottom = platform.ramme.top + 3
+
  
     #4. tegn
     vindu.blit(bakgrunnsbilde, (0, 0))
 
     for fiende in fiender:
         fiende.tegn(vindu)
+    
+    for platform in platformer:
+        platform.draw(vindu)
 
     for skudd in skuddene:
         skudd.tegn(vindu)
+
+    
     
     spiller.tegn(vindu)
     vindu.blit(poengsum_font.render(f"Poeng{poeng}", True, "white"), (0,0))
