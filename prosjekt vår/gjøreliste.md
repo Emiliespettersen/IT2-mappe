@@ -1,8 +1,8 @@
 # Gjøre på prosjektet
 
-[ ] mindre råbåter
-[ ] saktere skudd
+[x] mindre råbåter
+[x] saktere skudd
 [ ] flyet må byttes ut med et menneske
-[ ] mennesket må kunne bevege seg fritt
-[ ] lage platformer
+[x] mennesket må kunne bevege seg fritt
+[x] lage platformer
 [ ] fikse poeng
