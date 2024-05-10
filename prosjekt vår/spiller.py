@@ -15,29 +15,37 @@ class Spiller(Figur):
 
     
     def flytt(self, dx:int):
-        self.ramme.x += 3 * dx
+        self.ramme.x += 3 * dx 
 
-    def står(self, blokker):
+    def står(self, blokker): # Funksjon for å sjekke om spiller står på blokkene (plattformene)
+        # Sender med listen til plattformene som blokker
         for blokk in blokker:
+            """
+                Lager en ny Rect som kun er en liten del av hele bildet,
+                dette er ford man kun vil stå dersom bunnen treffer plattformene
+                Sjekker deretter om denne rammen treffer rammen til blokken
+                Sjekker også om spiller beveger seg nedover.
+            """
             if pygame.rect.Rect(self.ramme.centerx - 10, self.ramme.bottom - 10, 20, 10).colliderect(blokk.ramme) and self.fart_y > -1:
-                self.ramme.bottom = blokk.ramme.top + 5
-                self.fart_y = 0
-                return True
-        if self.ramme.bottom >= 595 and self.fart_y > -1:
+                # Hvis alt stemmer, så:
+                self.ramme.bottom = blokk.ramme.top + 5  # Setter bunnen til spilleren 5px under toppen av plattformen
+                self.fart_y = 0 # Setter farten til spilleren lik 0
+                return True # Returnerer True, som gjør at det står om spiller står eller ikke
+        if self.ramme.bottom >= 595 and self.fart_y > -1: # Sjekker om spiller er på bunnen av skjermen
+            # GJØR SAMME SOM if SETNNGEN OVER, BARE PÅ BAKKEN
             self.ramme.bottom = 600
             self.fart_y = 0
             return True
+        # Returnerer False dersom spiller ikke står
         return False
     
-    def hopp(self, blokker):
-        if self.står(blokker):
-            self.fart_y = -10
+    def hopp(self, blokker): # Sender inn blokker for å kjøre står funksjonen
+        if self.står(blokker): # Dersom spiller(self) står 
+            self.fart_y = -10 # Farten til et hopp 
 
     def oppdater(self, blokker):
-        self.ramme.centery += self.fart_y
-        if self.ramme.bottom > 600:
-            self.ramme.bottom = 600
-        if self.står(blokker) == False:
+        self.ramme.centery += self.fart_y # Endrer posisjonen til spilleren med farten
+        if self.står(blokker) == False: # Endrer farten nedover dersom spilleren ikke står på blokkene
             self.fart_y += self.aks
-        if self.cooldown > 0:
+        if self.cooldown > 0: # Endrer cooldownen nedover dersom cooldownen er over 0
             self.cooldown -= 1
