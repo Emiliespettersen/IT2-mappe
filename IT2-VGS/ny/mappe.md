@@ -24,6 +24,7 @@ https://github.com/Emiliespettersen/IT2-mappe/tree/master/prosjekt%20vår
 
 DONE Ha en presentasjon der du forklarer en _avansert_ kode. 
 DONE Lim inn lenke til besvarelse av oppgave 2.1 - 2.4 og 2.12 - 2.14
+https://github.com/Emiliespettersen/IT2-mappe/blob/master/IT2-VGS/ny/mitt%20arbeid/21-214.ipynb
 
 
 
@@ -39,13 +40,17 @@ TODO<>: Lim inn lenke til kode som er dokumentert med docstrings
 - Gjør oppgave [2.20 (youtube) eller 2.21 (google play store)](https://it2.thorcc.no/databehandling-og-algoritmer/storre-oppgaver)
 
 DONE Gjør oppgave 2.20 eller 2.21 som øving til tentamen  
+https://github.com/Emiliespettersen/IT2-mappe/tree/master/IT2-VGS/ny/mitt%20arbeid/youtube
+
 DONE Lim inn lenke til besvarelse av oppgave 3.1 - 3.12
+https://github.com/Emiliespettersen/IT2-mappe/tree/master/IT2-VGS/ny/mitt%20arbeid/Oppgave%203
 
 ### Vern mot kjøretidsfeil og logiske feil i programmer
 
 - Gjør oppgave [3.13 - 3.16 (testing)](https://it2.thorcc.no/apputvikling/testing#oppgaver)
 
 DONE Lim inn lenker til besvarelse av oppgaver
+https://github.com/Emiliespettersen/IT2-mappe/tree/master/testing/oppgaver%2013-16
 
 ## Modellering og representasjon
 
@@ -54,18 +59,21 @@ DONE Lim inn lenker til besvarelse av oppgaver
 - Lag UML-diagram for et større objektorientert system
 
 DONE Lim inn lenke til UML-diagram  
+https://github.com/Emiliespettersen/IT2-mappe/blob/master/prosjekt%20vår/vårprosjekt.drawio
 
 ### Representasjon av programflyt med kontrollstrukturer
 
 - Gjør oppgave [2.5  og 2.6 (flytdiagram)](https://it2.thorcc.no/databehandling-og-algoritmer/)
 
 DONE Lim inn lenke til besvarelser på github
+https://github.com/Emiliespettersen/IT2-mappe/tree/master/IT2-VGS/ny/mitt%20arbeid/Flytdiagram
 
 ### Brukervennlighet i programmer
 
 - Ha en presentasjon der du vurderer brukervennlighet i et spill/applikasjon og foreslår hensiktsmessige forbedringer
 
 DONE Hold presentasjon der du presenterer ett eller flere prosjekter
+GJORT
 
 ## Problemløsning
 
@@ -78,18 +86,21 @@ DONE Hold presentasjon der du presenterer ett eller flere prosjekter
     - en web-applikasjon laget med Flask
 
 DONE Lim inn lenke til github-repository (side på github) med relevant kode
+https://github.com/Emiliespettersen/IT2-mappe/blob/master/prosjekt%20vår/spill.py
 
 ### Alternative løsninger
 
 - Ha en presentasjon der du begrunner valg som er gjort i et prosjekt og vurderer alternative løsninger
 
 DONE Hold presentasjon der du presnterer ett eller flere prosjekter
+GJORT
 
 ### Objektorienterte programmer med klasser, arv og objekter
 
 - Lag et større objektorientert system som inneholder klasser, arv og objekter
 
 DONE Lim inn lenke til github-repository (side på github) med relevant kode
+https://github.com/Emiliespettersen/IT2-mappe/blob/master/prosjekt%20vår/spill.py
 
 ## Samfunn og systemer
 
@@ -98,12 +109,15 @@ DONE Lim inn lenke til github-repository (side på github) med relevant kode
 - Oppgave om etikk og konsekvenser ved bruk av IT kommer i uke 12.
 
 DONE Lever oppgave på Teams
+Kunstig intelligens.docx
+OG GJORT
 
 ### Standarder for lagring, utveksling og sikring av data
 
 - Gjør oppgave [2.15 - 2.17 (filhåndtering)](https://it2.thorcc.no/databehandling-og-algoritmer/filhandtering#oppgaver)
 
 DONE Lim inn lenke til oppgavebesvarelser på github.
+https://github.com/Emiliespettersen/IT2-mappe/tree/master/IT2-VGS/ny/mitt%20arbeid/2.15-2.17
 
 ### Brukervennlighet i informasjonssystemer
 
