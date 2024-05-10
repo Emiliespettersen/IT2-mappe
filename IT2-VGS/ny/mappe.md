@@ -133,20 +133,20 @@ DONE Skriv minst tre tilbakemeldinger her
 #### tilbakemeldinger
 
 ##### Tilbakemelding #1
-**Prosjekt:** 
+**Prosjekt:** https://github.com/Emiliespettersen/IT2-mappe/blob/master/prosjekt%20vår/spill.py
 **Bruker:**  Mann 19 år. Skole elev som ikke har IT selv 
 **Tilbakemelding:** "Man burde dø når man faller ned fra platformene"
 **Tiltak:** Fikse til nestegang
 
 
 ##### Tilbakemelding #2
-**Prosjekt:** 
-**Bruker:** Gutt 16 år på ungdomskolen
+**Prosjekt:** https://github.com/Emiliespettersen/IT2-mappe/blob/master/prosjekt%20vår/spill.py
+**Bruker:** Gutt 16 år på ungdomskolen. Bor på vøyenega. Spiller mye
 **Tilbakemelding:** "Du burde kunne skyte raskere, så du kan drepe de andre fort"  
 **Tiltak:** Satt opp hastigheten på skuddene
 
 ##### Tilbakemelding #3
-**Prosjekt:** 
-**Bruker:** Kvinne 47 år
+**Prosjekt:** https://github.com/Emiliespettersen/IT2-mappe/blob/master/prosjekt%20vår/spill.py
+**Bruker:** Kvinne 47 år. Driver mye med PC. fra vøyenenga
 **Tilbakemelding:** "Det burde være flere mynter, sånn at du alltid har noe å gjøre"  
 **Tiltak:** La til flere mynter
