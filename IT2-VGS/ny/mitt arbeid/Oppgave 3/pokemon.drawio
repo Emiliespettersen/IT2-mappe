@@ -1,0 +1,43 @@
+<mxfile host="Electron" modified="2024-05-10T20:50:24.134Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="tf4ls3s8RuZpXe5qXETJ" version="22.1.2" type="device">
+  <diagram name="Page-1" id="VE6YEJn4PftV8VdNdtsw">
+    <mxGraphModel dx="1194" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7GiyLR0LiVSR251wjXOw-5" value="Trener" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="230" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7GiyLR0LiVSR251wjXOw-6" value="navn: str&lt;br&gt;pokemonliste: list" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="7GiyLR0LiVSR251wjXOw-5" vertex="1">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="7GiyLR0LiVSR251wjXOw-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="7GiyLR0LiVSR251wjXOw-5" vertex="1">
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="7GiyLR0LiVSR251wjXOw-8" value="__str__&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;legg_til_pokemon&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;fjern_pokemon" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="7GiyLR0LiVSR251wjXOw-5" vertex="1">
+          <mxGeometry y="78" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="7GiyLR0LiVSR251wjXOw-9" value="Pokemon" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="400" width="160" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="7GiyLR0LiVSR251wjXOw-10" value="id: str&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;navn: str&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;type: list&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;hp: int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;attack: int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;defense: int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;sp_attack: int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;sp_defense: int&lt;br&gt;speed: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="7GiyLR0LiVSR251wjXOw-9" vertex="1">
+          <mxGeometry y="26" width="160" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="7GiyLR0LiVSR251wjXOw-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="7GiyLR0LiVSR251wjXOw-9" vertex="1">
+          <mxGeometry y="180" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="7GiyLR0LiVSR251wjXOw-12" value="__str__" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="7GiyLR0LiVSR251wjXOw-9" vertex="1">
+          <mxGeometry y="188" width="160" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="VULJpkrM9TVzfV9c8g7a-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.669;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7GiyLR0LiVSR251wjXOw-9" target="7GiyLR0LiVSR251wjXOw-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="410" as="sourcePoint" />
+            <mxPoint x="460" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
